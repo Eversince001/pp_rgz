@@ -1,0 +1,20 @@
+C:\Users\Eversince001\Desktop\diplom\bin\Debug\Практика 5 семестр.exe.config
+C:\Users\Eversince001\Desktop\diplom\bin\Debug\Практика 5 семестр.exe
+C:\Users\Eversince001\Desktop\diplom\bin\Debug\Практика 5 семестр.pdb
+C:\Users\Eversince001\Desktop\diplom\bin\Debug\ExcelDataReader.dll
+C:\Users\Eversince001\Desktop\diplom\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Eversince001\Desktop\diplom\bin\Debug\ExcelDataReader.pdb
+C:\Users\Eversince001\Desktop\diplom\bin\Debug\ExcelDataReader.xml
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\vkr.csproj.AssemblyReference.cache
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\vkr.csproj.SuggestedBindingRedirects.cache
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\vkr.in.resources
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\vkr.out.resources
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\vkr.solution.resources
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\Практика_5_семестр.Properties.Resources.resources
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\vkr.csproj.GenerateResource.cache
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\vkr.csproj.CoreCompileInputs.cache
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\vkr.csproj.CopyComplete
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\Практика 5 семестр.exe
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\Практика 5 семестр.pdb
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\vkr.Time.resources
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\vkr.csproj.ResolveComReference.cache

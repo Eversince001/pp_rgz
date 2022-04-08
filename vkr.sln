@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vkr", "vkr.csproj", "{BFAA9785-423E-4922-85F7-61F9F9C05700}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFAA9785-423E-4922-85F7-61F9F9C05700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFAA9785-423E-4922-85F7-61F9F9C05700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFAA9785-423E-4922-85F7-61F9F9C05700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFAA9785-423E-4922-85F7-61F9F9C05700}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF32E734-852B-4385-876A-BB3166CE26DD}
+	EndGlobalSection
+EndGlobal

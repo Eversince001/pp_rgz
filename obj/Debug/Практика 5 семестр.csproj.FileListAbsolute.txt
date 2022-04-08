@@ -1,0 +1,54 @@
+C:\Users\dimon\OneDrive\V семестр\Практика 5 семестр\bin\Debug\Практика 5 семестр.exe.config
+C:\Users\dimon\OneDrive\V семестр\Практика 5 семестр\bin\Debug\Практика 5 семестр.exe
+C:\Users\dimon\OneDrive\V семестр\Практика 5 семестр\bin\Debug\Практика 5 семестр.pdb
+C:\Users\dimon\OneDrive\V семестр\Практика 5 семестр\obj\Debug\Практика 5 семестр.csprojAssemblyReference.cache
+C:\Users\dimon\OneDrive\V семестр\Практика 5 семестр\obj\Debug\Практика_5_семестр.Properties.Resources.resources
+C:\Users\dimon\OneDrive\V семестр\Практика 5 семестр\obj\Debug\Практика 5 семестр.csproj.GenerateResource.cache
+C:\Users\dimon\OneDrive\V семестр\Практика 5 семестр\obj\Debug\Практика 5 семестр.csproj.CoreCompileInputs.cache
+C:\Users\dimon\OneDrive\V семестр\Практика 5 семестр\obj\Debug\Практика 5 семестр.exe
+C:\Users\dimon\OneDrive\V семестр\Практика 5 семестр\obj\Debug\Практика 5 семестр.pdb
+C:\Users\dimon\OneDrive\V семестр\Практика 5 семестр\obj\Debug\Практика_5_семестр.in.resources
+C:\Users\dimon\OneDrive\V семестр\Практика 5 семестр\obj\Debug\Практика_5_семестр.out.resources
+C:\Users\dimon\OneDrive\V семестр\Практика 5 семестр\obj\Debug\Практика_5_семестр.solution.resources
+C:\Users\Everesince\Desktop\практика\bin\Debug\Практика 5 семестр.exe.config
+C:\Users\Everesince\Desktop\практика\bin\Debug\Практика 5 семестр.exe
+C:\Users\Everesince\Desktop\практика\bin\Debug\Практика 5 семестр.pdb
+C:\Users\Everesince\Desktop\практика\obj\Debug\Практика 5 семестр.csprojAssemblyReference.cache
+C:\Users\Everesince\Desktop\практика\obj\Debug\Практика_5_семестр.in.resources
+C:\Users\Everesince\Desktop\практика\obj\Debug\Практика_5_семестр.out.resources
+C:\Users\Everesince\Desktop\практика\obj\Debug\Практика_5_семестр.solution.resources
+C:\Users\Everesince\Desktop\практика\obj\Debug\Практика_5_семестр.Properties.Resources.resources
+C:\Users\Everesince\Desktop\практика\obj\Debug\Практика 5 семестр.csproj.GenerateResource.cache
+C:\Users\Everesince\Desktop\практика\obj\Debug\Практика 5 семестр.csproj.CoreCompileInputs.cache
+C:\Users\Everesince\Desktop\практика\obj\Debug\Практика 5 семестр.exe
+C:\Users\Everesince\Desktop\практика\obj\Debug\Практика 5 семестр.pdb
+C:\Users\dimon\OneDrive\V семестр\Практика\практика\bin\Debug\Практика 5 семестр.exe.config
+C:\Users\dimon\OneDrive\V семестр\Практика\практика\bin\Debug\Практика 5 семестр.exe
+C:\Users\dimon\OneDrive\V семестр\Практика\практика\bin\Debug\Практика 5 семестр.pdb
+C:\Users\dimon\OneDrive\V семестр\Практика\практика\obj\Debug\Практика 5 семестр.csprojAssemblyReference.cache
+C:\Users\dimon\OneDrive\V семестр\Практика\практика\obj\Debug\Практика_5_семестр.in.resources
+C:\Users\dimon\OneDrive\V семестр\Практика\практика\obj\Debug\Практика_5_семестр.out.resources
+C:\Users\dimon\OneDrive\V семестр\Практика\практика\obj\Debug\Практика_5_семестр.solution.resources
+C:\Users\dimon\OneDrive\V семестр\Практика\практика\obj\Debug\Практика_5_семестр.Properties.Resources.resources
+C:\Users\dimon\OneDrive\V семестр\Практика\практика\obj\Debug\Практика 5 семестр.csproj.GenerateResource.cache
+C:\Users\dimon\OneDrive\V семестр\Практика\практика\obj\Debug\Практика 5 семестр.csproj.CoreCompileInputs.cache
+C:\Users\dimon\OneDrive\V семестр\Практика\практика\obj\Debug\Практика 5 семестр.exe
+C:\Users\dimon\OneDrive\V семестр\Практика\практика\obj\Debug\Практика 5 семестр.pdb
+C:\Users\Eversince001\Desktop\diplom\bin\Debug\Практика 5 семестр.exe.config
+C:\Users\Eversince001\Desktop\diplom\bin\Debug\Практика 5 семестр.exe
+C:\Users\Eversince001\Desktop\diplom\bin\Debug\Практика 5 семестр.pdb
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\Практика 5 семестр.csproj.AssemblyReference.cache
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\Практика 5 семестр.csproj.SuggestedBindingRedirects.cache
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\Практика_5_семестр.in.resources
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\Практика_5_семестр.out.resources
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\Практика_5_семестр.solution.resources
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\Практика_5_семестр.Properties.Resources.resources
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\Практика 5 семестр.csproj.GenerateResource.cache
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\Практика 5 семестр.csproj.CoreCompileInputs.cache
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\Практика 5 семестр.exe
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\Практика 5 семестр.pdb
+C:\Users\Eversince001\Desktop\diplom\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Eversince001\Desktop\diplom\obj\Debug\Практика 5 семестр.csproj.CopyComplete
+C:\Users\Eversince001\Desktop\diplom\bin\Debug\ExcelDataReader.dll
+C:\Users\Eversince001\Desktop\diplom\bin\Debug\ExcelDataReader.pdb
+C:\Users\Eversince001\Desktop\diplom\bin\Debug\ExcelDataReader.xml
