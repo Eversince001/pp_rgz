@@ -1,0 +1,19 @@
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\bin\Release\Практика 5 семестр.exe.config
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\bin\Release\Практика 5 семестр.exe
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\bin\Release\Практика 5 семестр.pdb
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\bin\Release\ExcelDataReader.dll
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\bin\Release\ExcelDataReader.pdb
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\bin\Release\ExcelDataReader.xml
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Release\vkr.csproj.AssemblyReference.cache
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Release\vkr.csproj.ResolveComReference.cache
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Release\vkr.in.resources
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Release\vkr.out.resources
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Release\vkr.solution.resources
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Release\Практика_5_семестр.Properties.Resources.resources
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Release\vkr.Time.resources
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Release\vkr.csproj.GenerateResource.cache
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Release\vkr.csproj.CoreCompileInputs.cache
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Release\vkr.csproj.CopyComplete
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Release\Практика 5 семестр.exe
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Release\Практика 5 семестр.pdb

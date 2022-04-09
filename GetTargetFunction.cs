@@ -4,16 +4,16 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace vkr
 {
     class GetTargetFunction
     {
         int D, V, N, R, S, h1 = 0, h2;
-        List<int> Ci = new List<int>();
-        List<int> Cj = new List<int>();
-        List<int> B = new List<int>();
         Result Result = new Result();
+        List<Task> downloadTasks = new List<Task>();
+        int a = 0;
 
         public GetTargetFunction(int r, int s, int n, int d, int v)
         {
@@ -45,6 +45,9 @@ namespace vkr
         }
         int GetM(List<List<int>> DataRR, List<List<int>> DataSS, List<int> LoadTime)
         {
+            List<int> Ci = new List<int>();
+            List<int> Cj = new List<int>();
+            List<int> B = new List<int>();
 
             List<List<int>> DataR = new List<List<int>>();
             List<List<int>> DataS = new List<List<int>>();
@@ -111,31 +114,29 @@ namespace vkr
 
             for (int i = 0; i < S; i++)
             {
-                var Task = new Task(() => {
-                    for (int j = 0; j < N; j++)
-                    {
-                        if (DataS[i][j] != 0)
-                            for (int k = 0; k < R; k++)
+                for (int j = 0; j < N; j++)
+                {
+                    if (DataS[i][j] != 0)
+                        for (int k = 0; k < R; k++)
+                        {
+                            if (DataR[k][j] >= DataS[i][j])
                             {
-                                if (DataR[k][j] >= DataS[i][j])
-                                {
-                                    DataR[k][j] -= DataS[i][j];
-                                    products[k] += DataS[i][j] * LoadTime[0];
-                                    k = R;
-                                }
-
-
-
-                                else if (DataR[k][j] < DataS[i][j] && DataR[k][j] != 0)
-                                {
-                                    DataS[i][j] -= DataR[k][j];
-                                    products[k] = DataR[k][j] * LoadTime[0];
-                                    DataR[k][j] = 0;
-                                }
+                                DataR[k][j] -= DataS[i][j];
+                                products[k] += DataS[i][j] * LoadTime[0];
+                                k = R;
                             }
 
-                    }
-                });
+
+
+                            else if (DataR[k][j] < DataS[i][j] && DataR[k][j] != 0)
+                            {
+                                DataS[i][j] -= DataR[k][j];
+                                products[k] = DataR[k][j] * LoadTime[0];
+                                DataR[k][j] = 0;
+                            }
+                        }
+
+                }
 
                 for (int n = 0; n < R; n++)
                 {
@@ -178,6 +179,7 @@ namespace vkr
                 {
                     products.Add(0);
                 }
+
             }
 
             int tmp = Cj[S - 1];
@@ -189,8 +191,8 @@ namespace vkr
         public Result GetResult(List<List<int>> DataR, List<List<int>> DataS, List<int> LoadTime)
         {
             ParallelOptions parallelOptions = new ParallelOptions();
-            parallelOptions.MaxDegreeOfParallelism = 8;
-            int K; int m = 1;
+            parallelOptions.MaxDegreeOfParallelism = 2;
+            List<int> K = new List<int>(); int m = 1;
             List<int> R = new List<int>();
             List<int> S = new List<int>();
             List<List<int>> DataSS = new List<List<int>>();
@@ -218,58 +220,63 @@ namespace vkr
 
             while (NextSet(ref DataSS, ref S))
             {
-                K = GetM(DataR, DataSS, LoadTime);
+                K.Add(GetM(DataR, DataSS, LoadTime));
                 // Console.WriteLine(K);
                 m++;
-                if (Result.M > K)
+                if (Result.M > K[K.Count - 1])
                 {
-                    Result.M = K;
+                    Result.M = K[K.Count - 1];
                     for (int i = 0; i < Result.PR.Count; i++)
                         Result.PR[i] = R[i];
                     for (int i = 0; i < Result.PS.Count; i++)
                         Result.PS[i] = S[i];
                 }
             }
-
+            
             while (NextSet(ref DataR, ref R))
             {
-                var task = new Task(() =>
+
+                S.Clear();
+                for (int i = 0; i < DataS.Count; i++)
+                    S.Add(i);
+
+                DataSS.Clear();
+                for (int i = 0; i < DataS.Count; i++)
                 {
-                    S.Clear();
-                    for (int i = 0; i < DataS.Count; i++)
-                        S.Add(i);
+                    DataSS.Add(new List<int>());
+                    for (int j = 0; j < N; j++)
+                        DataSS[i].Add(DataS[i][j]);
 
-                    DataSS.Clear();
-                    for (int i = 0; i < DataS.Count; i++)
-                    {
-                        DataSS.Add(new List<int>());
-                        for (int j = 0; j < N; j++)
-                            DataSS[i].Add(DataS[i][j]);
+                }
 
-                    }
-                    var subtask = new Task(() =>
-                    {
-                        do
-                        {
-                            K = GetM(DataR, DataSS, LoadTime);
-                            // Console.WriteLine(K);
-                            m++;
-                            if (Result.M > K)
-                            {
-                                Result.M = K;
-                                for (int i = 0; i < Result.PR.Count; i++)
-                                    Result.PR[i] = R[i];
-                                for (int i = 0; i < Result.PS.Count; i++)
-                                    Result.PS[i] = S[i];
-                            }
-                        } while (NextSet(ref DataSS, ref S));
-                    });
-                });
+                do
+                {
+                    downloadTasks.Add(new Task(() => {
+                        K.Add(GetM(DataR, DataSS, LoadTime));
+                    }));
+
+                    downloadTasks[downloadTasks.Count - 1].Start();
+                    
+                } while (NextSet(ref DataSS, ref S));
+
+                Task.WaitAll(downloadTasks.ToArray());
             }
-            Console.WriteLine(m);
+            for (int j = 0; j < K.Count; j++)
+            {
+                if (Result.M > K[j])
+                {
+                    Result.M = K[j];
+                    for (int i = 0; i < Result.PR.Count; i++)
+                        Result.PR[i] = R[i];
+                    for (int i = 0; i < Result.PS.Count; i++)
+                        Result.PS[i] = S[i];
+                }
+            }
+          
 
             return Result;
         }
     }
 
 }
+

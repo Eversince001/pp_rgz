@@ -18,3 +18,22 @@ C:\Users\Eversince001\Desktop\diplom\obj\Debug\Практика 5 семестр
 C:\Users\Eversince001\Desktop\diplom\obj\Debug\Практика 5 семестр.pdb
 C:\Users\Eversince001\Desktop\diplom\obj\Debug\vkr.Time.resources
 C:\Users\Eversince001\Desktop\diplom\obj\Debug\vkr.csproj.ResolveComReference.cache
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Debug\vkr.csproj.AssemblyReference.cache
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Debug\vkr.csproj.ResolveComReference.cache
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Debug\vkr.in.resources
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Debug\vkr.out.resources
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Debug\vkr.solution.resources
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Debug\Практика_5_семестр.Properties.Resources.resources
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Debug\vkr.Time.resources
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Debug\vkr.csproj.GenerateResource.cache
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Debug\vkr.csproj.CoreCompileInputs.cache
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Debug\Практика 5 семестр.exe
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Debug\Практика 5 семестр.pdb
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\bin\Debug\Практика 5 семестр.exe.config
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\bin\Debug\Практика 5 семестр.exe
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\bin\Debug\Практика 5 семестр.pdb
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\bin\Debug\ExcelDataReader.dll
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\bin\Debug\ExcelDataReader.pdb
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\bin\Debug\ExcelDataReader.xml
+C:\Users\kajda.2018\Desktop\pp\pp_rgz\obj\Debug\vkr.csproj.CopyComplete

@@ -14,7 +14,7 @@ namespace vkr
         private List<List<int>> DataR;
         private List<List<int>> DataS;
         private List<int> LoadTime;
-        private excel exc;
+       // private excel exc;
 
         public solution()
         {
@@ -22,7 +22,7 @@ namespace vkr
             DataR = new List<List<int>>(); //товары в грузовиках разгрузки
             DataS = new List<List<int>>(); //товары в грузовиках погрузки
             LoadTime = new List<int>(); //t переноса отдельного товара на складе
-            exc = new excel();
+           // exc = new excel();
         }
 
 
@@ -86,9 +86,10 @@ namespace vkr
                 if (isEqual(DataS, DataR, Convert.ToInt32(textBoxN.Text)))
                 {
                     System.Diagnostics.Stopwatch timer = new System.Diagnostics.Stopwatch();
-                    timer.Start();
                     GetTargetFunction = new GetTargetFunction(Convert.ToInt32(textBoxR.Text), Convert.ToInt32(textBoxS.Text), Convert.ToInt32(textBoxN.Text), Convert.ToInt32(textBoxD.Text), Convert.ToInt32(textBoxV.Text));
+                    timer.Start();
                     Result = GetTargetFunction.GetResult(DataR, DataS, LoadTime);
+                    timer.Stop();
                     string PR = "", PS = "";
                     for (int i = 0; i < Result.PR.Count; i++)
                         PR += (Result.PR[i] + 1).ToString() + " ";
@@ -96,7 +97,6 @@ namespace vkr
                         PS += (Result.PS[i] + 1).ToString() + " ";
 
                     //exc.SaveData(Result);
-                    timer.Stop();
                     MessageBox.Show("Время: " + Result.M.ToString() + "\n" + "Порядок машин разгрузки:" + PR + "\n" + "Порядок машин погрузки: " + PS + "\n" + "Подробная информация в файле result.xlsx\n" + Convert.ToString(timer.Elapsed));
                 }
             }
@@ -161,7 +161,7 @@ namespace vkr
 
         private void открытьToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            exc.LoadData(ref DataR, ref DataS, ref LoadTime, ref textBoxR, ref textBoxS, ref textBoxN, ref textBoxD, ref textBoxV);
+            //exc.LoadData(ref DataR, ref DataS, ref LoadTime, ref textBoxR, ref textBoxS, ref textBoxN, ref textBoxD, ref textBoxV);
         }
 
         private void ButtonTime_Click(object sender, EventArgs e)
